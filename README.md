@@ -46,4 +46,4 @@ returns:
 ## Example
 Examples can be found in folder examples.
 
-<img src="https://github.com/moritzmitterdorfer/sentiment-analysis/blob/master/example/imgs/result.png" width="600>
+<img src="https://github.com/moritzmitterdorfer/sentiment-analysis/blob/master/example/imgs/result.png" width="600px">
