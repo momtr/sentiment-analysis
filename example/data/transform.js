@@ -17,7 +17,7 @@ fs.readFile('./AFINN-111.txt', 'utf8', (err, data) => {
         lookup[word] = score;
     });
     let fileContent = JSON.stringify({ words, lookup });
-    fs.writeFile('../lib/AFINN-111.json', fileContent, err => {
+    fs.writeFile('../../lib/AFINN-111.json', fileContent, err => {
         if(err) throw err;
     });
 });
