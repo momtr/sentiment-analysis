@@ -2,7 +2,7 @@
  * Example (using SentimentAnalysis module)
  */
 
-const SentimentAnalysis = require('../lib/sentimentAnalysis.js');
+const SentimentAnalysis = require('../lib/sentimentAnalysis');
 const analyzer = new SentimentAnalysis('../lib/AFINN-111.json');
 
 /** with strings */
